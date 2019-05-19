@@ -1,0 +1,157 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* End Font */
+
+/* Start Body */
+body {
+    background-color: orchid ;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: #ae847e;
+}
+.bg-red {
+    background-color: #b988c6;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: #0366d6;
+    text-decoration: none;
+}
+a:hover
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: aqua;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li{
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none; 
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    leeter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #182747;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+
+.main-home-two {
+    float: right;
+    width: 50%;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: #d36544;
+    border: 1px solid #eaecef;
+    border-radius: 3px 3px 0 0;
+}
+/* End Box */
